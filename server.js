@@ -7,7 +7,7 @@ const admin = require('./routes/admin.js');
 const cors = require('cors');
 
 const app = express();
-const port = process.on.PORT || 7000;
+const port = process.env.PORT || 7000;
 
 var path = require('path');
 
